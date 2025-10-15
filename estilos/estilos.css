@@ -1,0 +1,58 @@
+body 	{
+	margin: 10px auto;
+	background-color:#78C6CF;
+	font-family:arial;
+	}
+.contenedor { 
+	max-width: 1000px; 
+	margin: 0 auto; 
+	padding: 20px; 
+	text-align: center; 
+	position: relative;
+	}
+p	{
+	text-align: justify;
+	}
+h1  	{ 
+	font-family:Algerian;
+	font-size:48pt;
+	color:#2E3C6B;
+	word-spacing:20px;
+	}
+nav	{
+	background-color:#4E8DC6;
+	}
+ul 	{
+  	list-style-position: inside; 
+  	display: inline-block;       
+  	text-align: left;           
+  	padding-left: 0;             	
+	}
+
+ol 	{
+	list-style-position: inside; 
+  	display: inline-block;       
+  	text-align: left;            
+  	padding-left: 0;    
+	}
+
+#formulario {
+	background-color:#008C8B;
+	border: 10px solid white;
+	margin:20px 300px 20px 250px;
+	
+	text-align: center;
+	}
+table 	{
+	width:100%;
+	background-color: black;
+	color: white;
+	}
+a	{
+	color: white;
+	}
+
+a:hover {
+	color:#0077cc;
+	}
+
