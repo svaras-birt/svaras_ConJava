@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<HTML lang="es">
+<!-- En la cabecera metemos el nombre del país del que se hablará como título y referenciamos a la hoja común de estilos -->
+<head>
+<meta charset="UTF-8"/>
+	<title>MALLORCA</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+</head>
+<!-- En el cuerpo aparecerá todo lo visible en nuestra web de viajes -->
+<body>
+<div class="contenedor"> <!-- He creado esta división contenedor para poder ajustar el estilo más fácil para dejarlo centrado -->
+  <h1> MALLORCA </h1>
+	<nav><!-- Menú de navegación entre nuestras hojas -->
+	<a href="index.html"> INDEX </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="azores.html">AZORES</a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="milan.html"> MILÁN </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="vietnam.html"> VIETNAM </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	</nav>
+<img src="imagenes/mallorca1.jpg" alt="puerta casa mallorquina" class="portada">
+<h2>Descubre Mallorca: el alma del Mediterráneo</h2> <!-- Descripción del país -->
+<p>Playas de agua turquesa, pueblos de piedra dorada y atardeceres que quitan el aliento. Mallorca es mucho más que sol y mar: es cultura, gastronomía y naturaleza. Desde la majestuosidad de la Serra de Tramuntana hasta las calas escondidas de la costa este, cada rincón invita a disfrutar sin prisas.
+
+Déjate conquistar por su encanto isleño y vive el Mediterráneo en su máxima esencia.</p>
+<table border="1"> <!-- Tabla para ordenar contenidos, enlace a los alojamientos-->
+<tr><td>Comida típica</td><td>Ensaimadas, Sobrasada, Frito mallorquín, Cocas</td></tr>
+<tr><td>&#160;&#160;&#160;Alojamientos recomendados</td><td><a href="https://thebochostels.com/hostal/the-boc-city/"> The Boc en Palma </a><br><a href="https://www.elvicenc.com/es/">El Vicenc en Cala San Vicent</a><br><a href="https://www.tenmallorca.com/">Ten Mallorca en Sineu</a></td></tr>
+</table>
+<br>
+<img src="imagenes/mallorca2.jpg" alt="cala de mallorca" class="fin">
+<br>
+
+<h3>Mejores lugares para visitar en Mallorca:</h3>
+<ol> <!-- Lista ordenada de lugares visitables-->
+  <li>Catedral de Palma (La Seu)</li>
+  <li>Valldemossa</li>
+  <li>Deià</li>
+  <li>Soller</li>
+  <li>Serra de Tramuntana</li>
+  <li>Cap de Formentor</li>
+ 
+</ol><br>
+
+<button onclick="galeriaMallorca()">Galería de imágenes</button>
+<div id="galeria-mallorca"></div>
+
+<!-- Cerramos todas las etiquetas, y el documento-->
+</div>
+
+<script src="funciones/funciones.js"></script>
+</body>
+
+</html>

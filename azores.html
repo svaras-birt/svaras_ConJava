@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<HTML lang="es">
+<!-- En la cabecera metemos el nombre del país del que se hablará como título y referenciamos a la hoja común de estilos -->
+<head>
+<meta charset="UTF-8"/>
+	<title>AZORES</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+</head>
+<!-- En el cuerpo aparecerá todo lo visible en nuestra web de viajes -->
+<body>
+<div class="contenedor"> <!-- He creado esta división contenedor para poder ajustar el estilo más fácil para dejarlo centrado -->
+  <h1> AZORES </h1>
+	<nav><!-- Menú de navegación entre nuestras hojas -->
+	<a href="index.html"> INDEX </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="mallorca.html">MALLORCA</a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="milan.html"> MILÁN </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="vietnam.html"> VIETNAM </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	</nav>
+<img src="imagenes/azoresportada.jpg" alt="paisaje de azores" class="portada">
+<h2>Descubre las Azores: el secreto mejor guardado del Atlántico</h2> <!-- Descripción del país -->
+<p>Entre Europa y América se esconden las Islas Azores, un paraíso natural de origen volcánico donde el tiempo parece detenerse. Imagina lagos de cráter color esmeralda, acantilados cubiertos de hortensias y aguas termales bajo el cielo estrellado. Perfectas para los amantes del senderismo, el buceo o simplemente para quienes buscan desconectar, las Azores ofrecen una mezcla única de aventura, tranquilidad y autenticidad.</p>
+
+<button onclick="mostrarInfoAzores()">MÁS INFORMACIÓN</button>
+
+<div id="info-azores"></div>
+
+<table border="1"> <!-- Tabla para ordenar contenidos, enlace a los alojamientos-->
+<tr><td>Comida típica</td><td>Cozido das Furnas, Lapas, Ananas</td></tr>
+<tr><td>&#160;&#160;&#160;Alojamientos recomendados</td><td><a href="https://azores-paim-apartment.visit-azores.info/es/"> Azores Paim Apartament en Punta Delgada </a><br><a href="https://atlantic-home-azores-furnas.visit-azores.info/es/">Atlantic 3 Bicas en Furnes</a><br><a href="https://casa-do-pateo-charming-house-azores.visit-azores.info/es/">Casa do Pateo en Punta Delgada</a></td></tr>
+</table>
+<br>
+<img src="imagenes/azores1.jpg" alt="paisaje de azores2" class="fin">
+<br>
+
+<h3>Mejores lugares para visitar en Azores:</h3>
+<ol> <!-- Lista ordenada de lugares visitables-->
+  <li>Lagoa das Sete Cidades</li>
+  <li>Caldeira Velha</li>
+  <li>Lagoa do Fogo</li>
+  <li>Furnas</li>
+  <li>Jardim Terra Nostra</li>
+ 
+</ol>
+<!-- Cerramos todas las etiquetas, y el documento-->
+</div>
+
+<script src="funciones/funciones.js"></script>
+</body>
+
+</html>

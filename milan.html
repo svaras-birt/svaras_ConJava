@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<HTML lang="es">
+<!-- En la cabecera metemos el nombre del país del que se hablará como título y referenciamos a la hoja común de estilos -->
+<head>
+<meta charset="UTF-8"/>
+	<title>MILAN</title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+</head>
+<!-- En el cuerpo aparecerá todo lo visible en nuestra web de viajes -->
+<body>
+<div class="contenedor"> <!-- He creado esta división contenedor para poder ajustar el estilo más fácil para dejarlo centrado -->
+  <h1> MILÁN </h1>
+	<nav><!-- Menú de navegación entre nuestras hojas -->
+	<a href="index.html"> INDEX </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="azores.html">AZORES</a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="mallorca.html"> MALLORCA </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="vietnam.html"> VIETNAM </a>&#160;&#160;&#160;&#160;&#160;&#160;
+	</nav>
+<img src="imagenes/milan1.jpg" alt="fachada del duomo" class="portada">
+<h2>Milán: elegancia, arte y sabor italiano</h2> <!-- Descripción del país -->
+<p>Milán es una ciudad donde la historia se mezcla con el diseño moderno. Capital mundial de la moda y la creatividad, sorprende con su arquitectura, sus plazas llenas de vida y su exquisita gastronomía. Desde su imponente catedral hasta los cafés con encanto, Milán invita a disfrutarla con calma y estilo.</p>
+<button onclick="mostrarCuriosidadMilan()">Ver curiosidad sobre Milán</button>
+<p id="curiosidad-milan"></p>
+<table border="1"> <!-- Tabla para ordenar contenidos, enlace a los alojamientos-->
+<tr><td>Comida típica</td><td>Risotto alla milanese y Cotoletta alla milanese</td></tr>
+<tr><td>&#160;&#160;&#160;Alojamientos recomendados</td><td><a href="https://hoteldavincimilano.it/"> Hotel Da Vinci </a><br><a href="https://www.j24hotelmilano.it/">Hotel J24</a><br><a href="https://www.meininger-hotels.com/en/hotels/milan/hotel-milan-garibaldi-station/">Meininger Garibaldi</a></td></tr>
+</table>
+<br>
+<img src="imagenes/milan2.jpg" alt="galeria vittorio emanuele" class="fin">
+<br>
+
+<h3>Mejores lugares para visitar en Milán:</h3>
+<ol> <!-- Lista ordenada de lugares visitables-->
+  <li>Duomo di Milano</li>
+  <li>Galería Vittorio Emanuele II</li>
+  <li>Navigli</li>
+  <li>Castello Sforzesco</li>
+ 
+</ol>
+
+
+<!-- Cerramos todas las etiquetas, y el documento-->
+</div>
+
+<script src="funciones/funciones.js"></script>
+</body>
+
+</html>

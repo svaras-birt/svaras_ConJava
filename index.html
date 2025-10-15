@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Abrimos el documento html, definimos lenguaje y caracteres. añadimos título y enlazamos con la hoja de estilos-->
+<HTML lang="es">
+
+<head>
+<meta charset="UTF-8"/>
+	<title> INDEX </title>
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+</head>
+
+<body><!-- En el cuerpo metemos todo el contenido de nuestra web-->
+<div class="contenedor"><!-- He creado esta división contenedor para poder ajustar el estilo más fácil para dejarlo centrado -->
+
+  <h1>FERIA DE VIAJES 2025</h1>
+<nav><!-- Menú de navegación entre nuestras hojas -->
+
+	<a href="azores.html">AZORES</a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="mallorca.html">MALLORCA</a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="milan.html">MILÁN</a>&#160;&#160;&#160;&#160;&#160;&#160;
+	<a href="vietnam.html">VIETNAM</a>&#160;&#160;&#160;&#160;&#160;&#160;
+</nav>
+
+<img src="imagenes/euskadi.jpg" alt="portada de un monte de euskadi">
+
+<p> Si quieres información de cualquier otro destino que no esté en el menú, introduce los datos en el formulario y te la mandaremos a la mayor brevedad:</p>
+<!-- Añadimos un formulario que aunque no funciona la web muestra en la url los datos introducidos en el mismo -->
+<form action="mailto:svaras@birt.eus" method="post" id="formulario" onsubmit="return validar()">
+  	<p>Tu nombre: <input type="text" name="nombre" id="nombre"></p>
+  	<p>Email: <input type="email" name="email" id="email" required></p>
+	<p>¿Qué país te gustaría descubrir?: <input type="text" name="pais" id="pais"></p>
+	
+   <input type="submit" value="ENVIAR">
+   <input type="reset" value="Limpiar">
+
+</form>
+
+<h3>¿Otros posibles destinos para 2025?</h3>
+
+<ul><!-- Creamos una lista desordenada de destinos -->
+
+  <li>Londres</li>
+  <li>Albania</li>
+  <li>Murcia</li>
+  <li>Andorra</li>
+  <li>Irlanda</li>
+  <li>Costa Rica</li>
+</ul>
+
+<h4>Te dejamos enlaces a otras webs de interés con muy buenos consejos para viajeros:</h4>
+<a href="https://www.mochileandoporelmundo.com/">Mochileando</a><br>
+<a href="https://www.viajeroscallejeros.com/">Viajeros Callejeros</a><br>
+<a href="https://www.viviendodeviaje.com/">Viviendo de viaje</a><br>
+
+<!-- Cerramos todas las etiquetas y el documento -->
+</div>
+<script src="funciones/funciones.js"></script>
+</body>
+
+</html>
