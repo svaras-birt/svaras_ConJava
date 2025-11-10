@@ -10,15 +10,16 @@
 	     <!--modificación primera. AVISO CLIMA VIETNAM-->
 		 <title>Aviso de riesgo por tifones</title>
 		 <link>https://svaras-birt.github.io/svaras_ConJava/vietnam.html</link>
-		 <pubDate>Mon, 10 Nov 2025 17:00:00 +0100</pubDate>
+		 <pubDate>Mon, 10 Nov 2025 17:00:00 GMT</pubDate>
 		 <descripction>Se incluye advertencia en la página de Vietnam</descripction>
 	   </item>
 	   <item>
 	     <!--modificación dos. Fotos Mallorca-->
 		 <title>Actualización de la galería</title>
 		 <link>https://svaras-birt.github.io/svaras_ConJava/mallorca.html</link>
-		 <pubDate>Mon, 10 Nov 2025 17:15:00 +0100</pubDate>
+		 <pubDate>Mon, 10 Nov 2025 17:15:00 GMT</pubDate>
 		 <description>Se añaden 3 fotos a la galería de Mallorca y se borra una, dejando todas verticales</description>
 	   </item>
   </channel>
+
 </rss>
