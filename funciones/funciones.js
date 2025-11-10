@@ -43,6 +43,8 @@ function galeriaMallorca() {
       '<img src="imagenes/mallorca3.jpg" width="150" onclick="mostrarGrande(\'mallorca3\')">' +
       '<img src="imagenes/mallorca4.jpg" width="150" onclick="mostrarGrande(\'mallorca4\')">' +
       '<img src="imagenes/mallorca5.jpg" width="150" onclick="mostrarGrande(\'mallorca5\')">' +
+	  '<img src="imagenes/mallorca6.jpg" width="150" onclick="mostrarGrande(\'mallorca6\')">' +
+	  '<img src="imagenes/mallorca7.jpg" width="150" onclick="mostrarGrande(\'mallorca7\')">' +
       '<div id="grande"></div>';
   };
 };
