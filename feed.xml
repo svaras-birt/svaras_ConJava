@@ -11,7 +11,7 @@
 		 <title>Aviso de riesgo por tifones</title>
 		 <link>https://svaras-birt.github.io/svaras_ConJava/vietnam.html</link>
 		 <pubDate>Mon, 10 Nov 2025 17:00:00 GMT</pubDate>
-		 <descripction>Se incluye advertencia en la página de Vietnam</descripction>
+		 <description>Se incluye advertencia en la página de Vietnam</description>
 	   </item>
 	   <item>
 	     <!--modificación dos. Fotos Mallorca-->
@@ -23,3 +23,4 @@
   </channel>
 
 </rss>
+
